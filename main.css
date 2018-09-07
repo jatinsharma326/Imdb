@@ -1,0 +1,64 @@
+root{
+	font-size:16px;
+}
+html,body{
+	width: 100%;
+	background-color: #1E2129;
+}
+a{
+	text-decoration: none;
+	color: #FFFFFF;
+}
+a:hover{
+	color: #FFFFFF;
+}
+#home-icon{
+	padding: 3px;
+	border-radius: 5px;
+	font-weight: bolder;
+	text-decoration: none;
+}
+.top-gutter{
+	margin-top: 20px;
+}
+.dropdown-item:hover {
+    background-color: #808B96;
+}
+.year-input{
+	display: none;
+}
+#error{
+	display: none;
+}
+.selected{
+	background-color: #808B96;
+	background-image:none;
+}
+.margin-right-2{
+	margin-right: 2px;
+}
+.year{
+	font-size: 2rem;
+}
+.root-font{
+	font-size: 1rem;
+}
+#movie-container{
+	display: none;
+}
+#poster{
+	width: 100%;
+}
+.loader {
+	display: none;
+  border: 16px solid;
+  border-radius: 50%;
+  border-top: 16px solid #000000;
+  width: 70px;
+  height: 70px;
+  animation: spin 0.5s linear infinite;
+}
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
